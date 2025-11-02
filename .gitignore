@@ -1,0 +1,50 @@
+# === Ignore temp, backup, and swap files ===
+*.bak
+*.tmp
+*.old
+*.swp
+*.swpx
+*.swo
+*~
+
+# === Ignore logs and generated outputs ===
+*.log
+*.gz
+*.zip
+*.tar
+*.tgz
+
+# === Ignore gcode or uploaded stuff accidentally copied here ===
+*.gcode
+*.ufp
+*.3mf
+
+# === Ignore Moonraker & system generated stuff (if symlinked or copied here) ===
+.history/
+.logs/
+.cache/
+.backups/
+.timelapse/
+.webcam/
+.uploads/
+.systemd/
+.db/
+
+# === Ignore IDE/editor garbage ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+
+# === Explicitly keep config files and macros ===
+!.gitignore
+!*.cfg
+!*.conf
+!*.macro
+!*.ini
+!*.json
+!*.sh
+!*.md
+
+telegram.conf
