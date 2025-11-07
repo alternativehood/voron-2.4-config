@@ -1,5 +1,6 @@
 # === Ignore temp, backup, and swap files ===
 *.bak
+*.bkp
 *.tmp
 *.old
 *.swp
